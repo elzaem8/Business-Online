@@ -18,6 +18,7 @@ html{
     font-family: "Josefin sans", sans-serif;
     font-size: 16px;
     color: #ffffff;
+    background-color: #0e0e0f;
     
 }
 /*-------------------------------------------------------------------
@@ -326,6 +327,7 @@ footer .content-footer .end{
     }
     html {
         font-size: 13px;
+        background-color: black;
     }
     .home .container-images{
         display: none;
