@@ -12,15 +12,22 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 
 }
 html{
     font-family: "Josefin sans", sans-serif;
     font-size: 16px;
     color: #ffffff;
-    background-color: #0e0e0f;
+    
     
 }
+
+body{
+    background-color: #0e0e0f;
+
+}
+
 /*-------------------------------------------------------------------
 *-------------------------------------Home section
 -------------------------------------------------------------------*/
@@ -162,7 +169,7 @@ h5{
 
 
 .about{
-    background-color: #212122;
+    background-color: #0e0e0f;
     padding: 2rem 8%;
     display: flex;
     align-items: center;
@@ -214,7 +221,7 @@ h5{
 -------------------------------------------------------------------*/
 
 .skills{
-    background-color: #212122;
+    background-color: #0e0e0f;
     padding: 2rem 8%;
     display: flex;
     align-items: center;
@@ -255,25 +262,21 @@ h5{
 -------------------------------------------------------------------*/
 
 footer{
-    padding: 2rem 8%;
+    
     background-color: #0e0e0f;
 }
 footer .content-footer{
     display: flex;
-    flex-direction: column;
+    gap: 888px;
     align-items: center;
     justify-content: center;
 }
-footer .content-footer p{
-    color: #ffffff;
-    text-align: center;
-    width: 500px;
-    margin-top: 1rem;
-}
+
 
 footer .content-footer .end{
     color: #ff274b;
     margin-top: 1rem;
+    gap: 88px;
 }
 /*-------------------------------------------------------------------
 *-------------------------------------menu section
@@ -327,10 +330,18 @@ footer .content-footer .end{
     }
     html {
         font-size: 13px;
-        background-color: black;
+        background-color: #0e0e0f;
     }
     .home .container-images{
         display: none;
+        
+
+    }
+    
+
+    .home{
+        padding-bottom: 1;
+        margin-bottom: 1px;
 
     }
     nav{
@@ -340,8 +351,8 @@ footer .content-footer .end{
         right: 0;
         height: 82px;
         padding-top: 0;
-        background-color: black;
-        border-bottom: 1px solid black;
+        background-color: #0e0e0f;
+        border-bottom: 1px solid #0e0e0f;
         z-index: 100;
 
     }
@@ -355,7 +366,7 @@ footer .content-footer .end{
         left: 0;
         width: 100vw;
         height: 100vh;
-        background: black;
+        background: #0e0e0f;
     }
     nav ul.is-active{
         display: block;
@@ -367,13 +378,39 @@ footer .content-footer .end{
     }
     .container-texts{
         bottom: 0rem;
-
     }
+    #hello{
+        top: 280px;
+        font-size: x-large;
+    }
+    #mr{
+        
+        font-size: 80px;
+        padding: 0;
+        margin: 3rem;
+        margin-left: 0;
+    }
+
+    #img1{
+        width: 60px;
+        height: 60px;
+        
+        
+    }
+    #logo{
+        font-size: x-large;
+    }
+    
     .social{
         margin-top: 70px;
+        align-items: center;
+        justify-content: center;
+        font-size: 40px;
     }
     h3{
         margin-bottom: 70px;
+        align-items: center;
+        justify-content: center;
     }
     #menu{
         display: block;
@@ -385,11 +422,35 @@ footer .content-footer .end{
     }
     .about .container-texts{
         width: 100%;
+        justify-content: center;
+        align-items: center;
+        background-color: #0e0e0f;
     }
+    #full{
+        font-size: 30px;
+        text-align: center;
+        padding-left: 8px;
+    }
+    p{
+        font-size: 19px;
+        letter-spacing: 0;
+        padding-left: 70px;
+        text-align-last: justify;
+        line-height: 1.5;
+        
+    }
+    #me{
+        text-align: center;
+        padding-left: 40px;
+    }
+    
     .box{
         justify-content: center;
         flex-wrap: wrap;
         gap: 1rem;
+        align-items: center;
+        
+        
     }
     .skills .container-imges{
         display: none;
@@ -400,13 +461,51 @@ footer .content-footer .end{
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        background-color: #0e0e0f;
     }
     .skills .container-skills .content-skills{
         margin-top: 2rem;
         align-items: center;
         justify-content: center;
     }
+    .text-center{
+        padding-left: 55px;
+    }
+    div.card{
+        margin-left: 60px;
+        width: 450px;
+        height: 330px;
+        letter-spacing: 0;
+        
+        margin-bottom: 18px;
+        
+    }
+    .par p{
+        color: aqua;
+        padding: 0;
+        margin: 0;
+        text-align-last: center;
+        
+    }
+    #sk{
+        padding-left: 55px;
+    }
+    .content-skills{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        width: 180px;
+        margin: auto;
+        padding-left: 55px;
+        
+    }
     
+    footer .end{
+        color: #ff274b;
+        padding: 0;
+        margin: 0;
+    }
 }
 
 
